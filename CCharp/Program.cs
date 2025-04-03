@@ -13,7 +13,12 @@ internal class Program
       //BooleanAndOperators.Ex02();
       //BooleanAndOperators.Ex03();
       //BooleanAndOperators.Ex04();
-      BooleanAndOperators.Ex05();
+      //BooleanAndOperators.Ex05();
+
+      //Arrays.Ex01();
+      //Arrays.Ex02();
+      //Arrays.Ex03();
+      Arrays.Ex04();
 
    }
 }
