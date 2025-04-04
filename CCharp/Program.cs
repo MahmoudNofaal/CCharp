@@ -54,5 +54,11 @@ internal class Program
       //_8_Constructor.Ex01();
       //_8_Constructor.Ex02();
 
+      //_9_Properties.Ex01();
+
+      _10_Indexers.Ex01();
+      _10_Indexers.Ex02();
+      _10_Indexers.Ex03();
+
    }
 }

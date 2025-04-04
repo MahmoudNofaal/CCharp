@@ -8,6 +8,16 @@ namespace CCharp;
 
 public class _9_Properties
 {
+   public static void Ex01()
+   {
+      Dollar d = new Dollar();
+
+      d.Amount = 15.5m;
+
+      Console.WriteLine($"{d.Amount}$");
+
+   }
+
 }
 
 
