@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CCharp;
 
-public class Variables
+public class _1_Variables
 {
 
    public static void Ex01()

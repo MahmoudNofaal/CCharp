@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CCharp;
 
-public class Arrays
+public class _3_Arrays
 {
    public static void Ex01()
    {

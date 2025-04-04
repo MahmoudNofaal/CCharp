@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CCharp;
 
-public class BooleanAndOperators
+public class _2_BooleanAndOperators
 {
 
    public static void Ex01()
