@@ -56,9 +56,12 @@ internal class Program
 
       //_9_Properties.Ex01();
 
-      _10_Indexers.Ex01();
-      _10_Indexers.Ex02();
-      _10_Indexers.Ex03();
+      //_10_Indexers.Ex01();
+      //_10_Indexers.Ex02();
+      //_10_Indexers.Ex03();
+
+      //_11_Delegates.Ex01();
+      _11_Delegates.Ex02();
 
    }
 }
