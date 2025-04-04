@@ -61,7 +61,10 @@ internal class Program
       //_10_Indexers.Ex03();
 
       //_11_Delegates.Ex01();
-      _11_Delegates.Ex02();
+      //_11_Delegates.Ex02();
+
+      //_12_Events.Ex01();
+      _12_Events.Ex02();
 
    }
 }
