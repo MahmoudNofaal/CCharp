@@ -52,7 +52,7 @@ internal class Program
       //_7_Methods.Ex04();
 
       //_8_Constructor.Ex01();
-      _8_Constructor.Ex02();
+      //_8_Constructor.Ex02();
 
    }
 }
