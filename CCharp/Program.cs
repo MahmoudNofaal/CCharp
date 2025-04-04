@@ -44,7 +44,12 @@ internal class Program
       //_5_CastingAndTypeConversion.Ex04();
       //_5_CastingAndTypeConversion.Ex05();
 
-      _6_FieldesAndConstants.Ex01();
+      //_6_FieldesAndConstants.Ex01();
+
+      //_7_Methods.Ex01();
+      //_7_Methods.Ex02();
+      //_7_Methods.Ex03();
+      _7_Methods.Ex04();
 
    }
 }
