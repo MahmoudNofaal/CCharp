@@ -8,13 +8,13 @@ internal class Program
       //_1_Variables.Ex01();
       //_1_Variables.Ex02();
       //_1_Variables.Ex03();
-      
+
       //_2_BooleanAndOperators.Ex01();
       //_2_BooleanAndOperators.Ex02();
       //_2_BooleanAndOperators.Ex03();
       //_2_BooleanAndOperators.Ex04();
       //_2_BooleanAndOperators.Ex05();
-     
+
       //_3_Arrays.Ex01();
       //_3_Arrays.Ex02();
       //_3_Arrays.Ex03();
@@ -43,6 +43,8 @@ internal class Program
       //_5_CastingAndTypeConversion.Ex03();
       //_5_CastingAndTypeConversion.Ex04();
       //_5_CastingAndTypeConversion.Ex05();
+
+      _6_FieldesAndConstants.Ex01();
 
    }
 }
