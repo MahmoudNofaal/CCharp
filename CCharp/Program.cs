@@ -36,7 +36,13 @@ internal class Program
       //Expressions.Ex14();
       //Expressions.Ex15();
       //Expressions.Ex16();
-      Expressions.Ex17();
+      //Expressions.Ex17();
+
+      //CastingAndTypeConversion.Ex01();
+      //CastingAndTypeConversion.Ex02();
+      //CastingAndTypeConversion.Ex03();
+      //CastingAndTypeConversion.Ex04();
+      CastingAndTypeConversion.Ex05();
 
    }
 }
