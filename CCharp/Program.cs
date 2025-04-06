@@ -76,7 +76,10 @@ internal class Program
       //_13_OperatorOverloading.Ex08();
 
       //_14_Finalizer.Ex01();
-      _14_Finalizer.Ex02();
+      //_14_Finalizer.Ex02();
+
+      //_15_NestedTypes.Ex01();
+      _15_NestedTypes.Ex02();
 
    }
 }
