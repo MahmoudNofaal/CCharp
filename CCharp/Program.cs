@@ -79,7 +79,10 @@ internal class Program
       //_14_Finalizer.Ex02();
 
       //_15_NestedTypes.Ex01();
-      _15_NestedTypes.Ex02();
+      //_15_NestedTypes.Ex02();
+
+      //_16_Struct.Ex01();
+      _16_Struct.Ex02();
 
    }
 }
