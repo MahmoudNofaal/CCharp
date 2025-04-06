@@ -82,7 +82,12 @@ internal class Program
       //_15_NestedTypes.Ex02();
 
       //_16_Struct.Ex01();
-      _16_Struct.Ex02();
+      //_16_Struct.Ex02();
+
+      //_17_Enums.Ex01();
+      //_17_Enums.Ex02();
+      //_17_Enums.Ex03();
+      _17_Enums.Ex04();
 
    }
 }
