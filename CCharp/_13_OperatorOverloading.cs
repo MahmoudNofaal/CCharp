@@ -15,9 +15,85 @@ public class _13_OperatorOverloading
 
       Money m3 = m1 + m2;
 
-      Console.WriteLine($"Amount Of Money 3 : {m3.Amount}");
+      Console.WriteLine($"Result of m1 + m2 : {m3.Amount}");
 
-      
+   }
+
+   public static void Ex02()
+   {
+      Money m1 = new Money(10);
+      Money m2 = new Money(20);
+
+      Money m3 = m1 - m2;
+
+      Console.WriteLine($"Result of m1 - m2 : {m3.Amount}");
+
+   }
+
+   public static void Ex03()
+   {
+      Money m1 = new Money(10);
+      Money m2 = new Money(20);
+
+      bool m3 = m1 > m2;
+
+      Console.WriteLine($"Result of m1 > m2 : {m3}");
+
+   }
+
+   public static void Ex04()
+   {
+      Money m1 = new Money(10);
+      Money m2 = new Money(20);
+
+      bool m3 = m1 < m2;
+
+      Console.WriteLine($"Result of m1 < m2 : {m3}");
+
+   }
+
+   public static void Ex05()
+   {
+      Money m1 = new Money(10);
+      Money m2 = new Money(20);
+
+      bool m3 = m1 >= m2;
+
+      Console.WriteLine($"Result of m1 >= m2 : {m3}");
+
+   }
+
+   public static void Ex06()
+   {
+      Money m1 = new Money(10);
+      Money m2 = new Money(20);
+
+      bool m3 = m1 <= m2;
+
+      Console.WriteLine($"Result of m1 <= m2 : {m3}");
+
+   }
+
+   public static void Ex07()
+   {
+      Money m1 = new Money(10);
+      Money m2 = new Money(20);
+
+      bool m3 = m1 == m2;
+
+      Console.WriteLine($"Result of m1 == m2 : {m3}");
+
+   }
+
+   public static void Ex08()
+   {
+      Money m1 = new Money(10);
+      Money m2 = new Money(20);
+
+      bool m3 = m1 != m2;
+
+      Console.WriteLine($"Result of m1 != m2 : {m3}");
+
    }
 
 }
@@ -36,6 +112,43 @@ public class Money
       var value = m1.Amount + m2.Amount;
 
       return new Money(value);
+   }
+
+   public static Money operator -(Money m1, Money m2)
+   {
+      var value = m1.Amount - m2.Amount;
+
+      return new Money(value);
+   }
+
+   public static bool operator >(Money m1, Money m2)
+   {
+      return m1.Amount > m2.Amount;
+   }
+
+   public static bool operator <(Money m1, Money m2)
+   {
+      return m1.Amount < m2.Amount;
+   }
+
+   public static bool operator >=(Money m1, Money m2)
+   {
+      return m1.Amount >= m2.Amount;
+   }
+
+   public static bool operator <=(Money m1, Money m2)
+   {
+      return m1.Amount <= m2.Amount;
+   }
+
+   public static bool operator ==(Money m1, Money m2)
+   {
+      return m1.Amount == m2.Amount;
+   }
+
+   public static bool operator !=(Money m1, Money m2)
+   {
+      return m1.Amount != m2.Amount;
    }
 
 }

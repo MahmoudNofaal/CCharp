@@ -66,7 +66,14 @@ internal class Program
       //_12_Events.Ex01();
       //_12_Events.Ex02();
 
-      _13_OperatorOverloading.Ex01();
+      //_13_OperatorOverloading.Ex01();
+      //_13_OperatorOverloading.Ex02();
+      //_13_OperatorOverloading.Ex03();
+      //_13_OperatorOverloading.Ex04();
+      //_13_OperatorOverloading.Ex05();
+      //_13_OperatorOverloading.Ex06();
+      //_13_OperatorOverloading.Ex07();
+      _13_OperatorOverloading.Ex08();
 
    }
 }
