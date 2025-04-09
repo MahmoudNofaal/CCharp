@@ -87,7 +87,9 @@ internal class Program
       //_17_Enums.Ex01();
       //_17_Enums.Ex02();
       //_17_Enums.Ex03();
-      _17_Enums.Ex04();
+      //_17_Enums.Ex04();
+
+      _18_Inheritance.Ex01();
 
    }
 }
