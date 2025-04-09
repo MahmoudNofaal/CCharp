@@ -21,53 +21,109 @@ public class _18_Inheritance
       /// 
       /// - .NET DOES NOT SUPPORT MULTIPLE INHERITANCE
 
-      var e = new Eagle();
+      var l = new Lion("Simba", 5);
+      var e = new Eagle("Eagle1", 2);
 
-      var a = new Animal();
+      l.Eat();
+      l.Roar();
 
-      a = e;
-
-      a.Move();
+      e.Eat();
+     e.Fly();
 
    }
+
+   public static void Ex02()
+   {
+      var animals = new List<Animal02>
+      {
+         new Dog("Duddy"),
+         new Animal02("Animal")
+      };
+      
+      foreach(var a in animals)
+      {
+         a.MakeSound();
+      }
+
+   }
+
+
 
 }
 
 class Animal
 {
-   public void Move()
+   public string Name { get; set; }
+   public int Age { get; set; }
+
+   public Animal(string name, int age)
    {
-      Console.WriteLine("Moving...");
+      this.Name = name;
+      this.Age = age;
    }
+
+   public void Eat()
+   {
+      Console.WriteLine($"{Name} is eating.");
+   }
+
 }
 
-//class Eagle
-//{
-//   public void Move()
-//   {
-//      Console.WriteLine("Moving...");
-//   }
+class Lion : Animal
+{
+   public Lion(string name, int age) : base(name, age)
+   {
 
-//   public void Fly()
-//   {
-//      Console.WriteLine("Flying...");
-//   }
+   }
 
-//}
+   public void Roar()
+   {
+      Console.WriteLine($"{Name} roars loadly!");
+   }
+}
 
 class Eagle : Animal
 {
+   public Eagle(string name, int age) : base(name, age)
+   {
+      
+   }
 
    public void Fly()
    {
-      Console.WriteLine("Flying...");
-   }
-
-   public void DoSomething()
-   {
-      Console.WriteLine("Doing something...");
+      Console.WriteLine($"{Name} is flying!");
    }
 
 }
 
+class Animal02
+{
+   public string Name { get; set; }
+
+   public Animal02(string name)
+   {
+      this.Name=name;
+   }
+
+   ///VIRTUAL METHOD, THAT CAN BE CUSTOMIZED BY THE DERIVED CLASS
+   public virtual void MakeSound()
+   {
+      Console.WriteLine($"{Name} makes a generic sound!");
+   }
+
+}
+
+class Dog : Animal02
+{
+   public Dog(string name) : base(name)
+   {
+   }
+
+   ///OVERRIDE THE DEFAULT BEHAVOIR
+   public override void MakeSound()
+   {
+      Console.WriteLine($"{Name} barks: Woof!");
+   }
+
+}
 
