@@ -90,7 +90,11 @@ internal class Program
       //_17_Enums.Ex04();
 
       //_18_Inheritance.Ex01();
-      _18_Inheritance.Ex02();
+      //_18_Inheritance.Ex02();
+
+      //_19_Interface.Ex01();
+      //_19_Interface.Ex02();
+      _19_Interface.Ex03();
 
    }
 }
