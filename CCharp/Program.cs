@@ -110,7 +110,8 @@ internal class Program
       // _21_Exceptions x = new _21_Exceptions();
       //x.Ex03();
 
-
+      //_22_ExtensionMethods.Ex01();
+      _22_ExtensionMethods.Ex02();
 
    }
 }
