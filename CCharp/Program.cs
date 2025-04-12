@@ -94,7 +94,16 @@ internal class Program
 
       //_19_Interface.Ex01();
       //_19_Interface.Ex02();
-      _19_Interface.Ex03();
+      //_19_Interface.Ex03();
+
+      //_20_Generics.Ex01();
+      //_20_Generics.Ex02();
+      //_20_Generics.Ex03();
+      //_20_Generics.Ex04();
+      //_20_Generics.Ex05();
+      //_20_Generics.Ex06();
+      //_20_Generics.Ex07();
+      _20_Generics.Ex08();
 
    }
 }
