@@ -103,7 +103,14 @@ internal class Program
       //_20_Generics.Ex05();
       //_20_Generics.Ex06();
       //_20_Generics.Ex07();
-      _20_Generics.Ex08();
+      //_20_Generics.Ex08();
+
+      //_21_Exceptions.Ex01();
+      //_21_Exceptions.Ex02();
+      // _21_Exceptions x = new _21_Exceptions();
+      //x.Ex03();
+
+
 
    }
 }
