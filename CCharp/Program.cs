@@ -129,7 +129,13 @@ internal class Program
 
       //_26_Queue.Ex01();
       //_26_Queue.Ex02();
-      _26_Queue.Ex03();
+      //_26_Queue.Ex03();
+
+      //_27_Stack.Ex01();
+      //_27_Stack.Ex02();
+      //_27_Stack.Ex03();
+      //_27_Stack.Ex04();
+      _27_Stack.Ex05();
 
    }
 }
