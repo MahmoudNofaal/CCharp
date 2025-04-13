@@ -125,7 +125,11 @@ internal class Program
       //_25_Dictionary.Ex02();
       //_25_Dictionary.Ex03();
       //_25_Dictionary.Ex04();
-      _25_Dictionary.Ex05();
+      //_25_Dictionary.Ex05();
+
+      //_26_Queue.Ex01();
+      //_26_Queue.Ex02();
+      _26_Queue.Ex03();
 
    }
 }
