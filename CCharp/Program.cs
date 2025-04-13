@@ -111,7 +111,13 @@ internal class Program
       //x.Ex03();
 
       //_22_ExtensionMethods.Ex01();
-      _22_ExtensionMethods.Ex02();
+      //_22_ExtensionMethods.Ex02();
+
+      //_23_ArrayList.Ex01();
+      //_23_ArrayList.Ex02();
+      //_23_ArrayList.Ex03();
+
+
 
    }
 }
