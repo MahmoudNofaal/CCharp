@@ -117,7 +117,9 @@ internal class Program
       //_23_ArrayList.Ex02();
       //_23_ArrayList.Ex03();
 
-
+      //_24_Hashtable.Ex01();
+      //_24_Hashtable.Ex02();
+      //_24_Hashtable.Ex03();
 
    }
 }
