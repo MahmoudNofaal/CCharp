@@ -121,5 +121,11 @@ internal class Program
       //_24_Hashtable.Ex02();
       //_24_Hashtable.Ex03();
 
+      //_25_Dictionary.Ex01();
+      //_25_Dictionary.Ex02();
+      //_25_Dictionary.Ex03();
+      //_25_Dictionary.Ex04();
+      _25_Dictionary.Ex05();
+
    }
 }
