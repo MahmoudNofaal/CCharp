@@ -146,7 +146,17 @@ internal class Program
       //_29_IEnumerableAndICollection.Ex02();
       //_29_IEnumerableAndICollection.Ex03();
       //_29_IEnumerableAndICollection.Ex04();
-      _29_IEnumerableAndICollection.Ex05();
+      //_29_IEnumerableAndICollection.Ex05();
+
+      //_30_StreamIO.Ex01();
+      //_30_StreamIO.Ex02();
+      //_30_StreamIO.Ex03();
+      //_30_StreamIO.Ex04();
+      //_30_StreamIO.Ex05();
+      //_30_StreamIO.Ex06();
+      //_30_StreamIO.Ex07();
+      //_30_StreamIO.Ex08();
+      _30_StreamIO.Ex09();
 
    }
 }
