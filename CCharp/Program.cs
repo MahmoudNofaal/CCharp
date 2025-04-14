@@ -135,7 +135,12 @@ internal class Program
       //_27_Stack.Ex02();
       //_27_Stack.Ex03();
       //_27_Stack.Ex04();
-      _27_Stack.Ex05();
+      //_27_Stack.Ex05();
+
+      //_28_Linkedlist.Ex01();
+      //_28_Linkedlist.Ex02();
+      //_28_Linkedlist.Ex03();
+      //_28_Linkedlist.Ex04();
 
    }
 }
