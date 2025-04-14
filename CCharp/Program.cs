@@ -142,5 +142,11 @@ internal class Program
       //_28_Linkedlist.Ex03();
       //_28_Linkedlist.Ex04();
 
+      //_29_IEnumerableAndICollection.Ex01();
+      //_29_IEnumerableAndICollection.Ex02();
+      //_29_IEnumerableAndICollection.Ex03();
+      //_29_IEnumerableAndICollection.Ex04();
+      _29_IEnumerableAndICollection.Ex05();
+
    }
 }
