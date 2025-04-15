@@ -156,7 +156,15 @@ internal class Program
       //_30_StreamIO.Ex06();
       //_30_StreamIO.Ex07();
       //_30_StreamIO.Ex08();
-      _30_StreamIO.Ex09();
+      //_30_StreamIO.Ex09();
+
+      //_31_Threading.Ex01();
+      //_31_Threading.Ex02();
+      //_31_Threading.Ex03();
+      //_31_Threading.Ex04();
+      //_31_Threading.Ex05();
+      //_31_Threading.Ex06();
+      _31_Threading.Ex07();
 
    }
 }
