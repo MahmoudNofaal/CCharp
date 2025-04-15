@@ -1,8 +1,9 @@
-﻿namespace CCharp; 
+﻿
+namespace CCharp; 
 
 internal class Program
 {
-   static void Main(string[] args)
+   static async Task Main(string[] args)
    {
 
       //_1_Variables.Ex01();
@@ -164,7 +165,10 @@ internal class Program
       //_31_Threading.Ex04();
       //_31_Threading.Ex05();
       //_31_Threading.Ex06();
-      _31_Threading.Ex07();
+      //_31_Threading.Ex07();
+
+      //await _32_Asynchronous.Ex01();
+      await _32_Asynchronous.Ex02();
 
    }
 }
