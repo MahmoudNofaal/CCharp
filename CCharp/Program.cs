@@ -195,5 +195,11 @@ internal class Program
       //_36_Tuples.Ex05();
       //_36_Tuples.Ex06();
 
+      //_37_NULLs.Ex01();
+      //_37_NULLs.Ex02();
+      //_37_NULLs.Ex03();
+      //_37_NULLs.Ex04();
+      //_37_NULLs.Ex05();
+
    }
 }
