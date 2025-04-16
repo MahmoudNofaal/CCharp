@@ -168,7 +168,14 @@ internal class Program
       //_31_Threading.Ex07();
 
       //await _32_Asynchronous.Ex01();
-      await _32_Asynchronous.Ex02();
+      //await _32_Asynchronous.Ex02();
+
+      //_33_Serialization.Ex01();
+      //_33_Serialization.Ex02();
+      //_33_Serialization.Ex03();
+      //await _33_Serialization.Ex04();
+      //_33_Serialization.Ex05();
+      _33_Serialization.Ex06();
 
    }
 }
