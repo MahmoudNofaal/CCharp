@@ -175,7 +175,12 @@ internal class Program
       //_33_Serialization.Ex03();
       //await _33_Serialization.Ex04();
       //_33_Serialization.Ex05();
-      _33_Serialization.Ex06();
+      //_33_Serialization.Ex06();
+
+      //_34_Records.Ex01();
+      //_34_Records.Ex02();
+      //_34_Records.Ex03();
+      _34_Records.Ex04();
 
    }
 }
