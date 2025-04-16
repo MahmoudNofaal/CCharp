@@ -188,5 +188,12 @@ internal class Program
       //_35_StringBuilder.Ex04();
       //_35_StringBuilder.Ex05();
 
+      //_36_Tuples.Ex01();
+      //_36_Tuples.Ex02();
+      //_36_Tuples.Ex03();
+      //_36_Tuples.Ex04();
+      //_36_Tuples.Ex05();
+      //_36_Tuples.Ex06();
+
    }
 }
