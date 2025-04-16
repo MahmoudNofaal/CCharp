@@ -180,7 +180,13 @@ internal class Program
       //_34_Records.Ex01();
       //_34_Records.Ex02();
       //_34_Records.Ex03();
-      _34_Records.Ex04();
+      //_34_Records.Ex04();
+
+      //_35_StringBuilder.Ex01();
+      //_35_StringBuilder.Ex02();
+      //_35_StringBuilder.Ex03();
+      //_35_StringBuilder.Ex04();
+      //_35_StringBuilder.Ex05();
 
    }
 }
